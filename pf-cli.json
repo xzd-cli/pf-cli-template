@@ -1,0 +1,27 @@
+[
+	{
+		"name": "react-component-template",
+		"description": "React组件模板",
+		"type": "component"
+	},
+	{
+		"name": "react-empty-template",
+		"description": "React项目模板",
+		"type": "project"
+	},
+	{
+		"name": "node-cli-template",
+		"description": "Node Cli 模板",
+		"type": "node"
+	},
+	{
+		"name": "doc-website-template",
+		"description": "文档站点模板",
+		"type": "project"
+	},
+	{
+		"name": "react-project-template",
+		"description": "React项目模板",
+		"type": "project"
+	}
+]

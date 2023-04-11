@@ -1,0 +1,39 @@
+{
+  "name": "@ols-scripts/<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "author": "<%= author %>",
+  "license": "<%= license %>",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "deploy": "ols deploy",
+    "test": "ols test",
+    "test:coverage": "ols test --coverage"
+  },
+  "main": "dist/index.js",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@ols-scripts/cli": "^0.0.2",
+    "@types/node": "^14.14.12",
+    "@types/jest": "^26.0.19",
+    "jest": "^26.6.3",
+    "typescript": "^3.8.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
