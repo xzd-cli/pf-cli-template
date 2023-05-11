@@ -1,7 +1,7 @@
 {
-  "name": "monitor-front",
-  "version": "0.0.1",
-  "description": "chrome插件",
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
   "scripts": {
     "dev": "ols dev",
     "build": "ols build",
@@ -28,8 +28,8 @@
     "*.less",
     "*.css"
   ],
-  "author": "xuzhudong",
-  "license": "ISC",
+  "author": "<%= author %>",
+  "license": "<%= license %>",
   "resolutions": {
     "@types/react": "^18.0.9"
   },
@@ -44,7 +44,6 @@
     "classnames": "^2.2.6",
     "cross-env": "^7.0.2",
     "lodash": "^4.17.20",
-    "playwright-extra": "^4.3.6",
     "query-string": "^6.13.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
