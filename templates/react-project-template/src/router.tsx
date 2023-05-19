@@ -1,13 +1,14 @@
 import React from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"
 import Home from '@/pages/Home/index';
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />
-  }
-]);
+const Router = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+    </Routes>
+  )
+}
 
-export default router;
+export default Router;
