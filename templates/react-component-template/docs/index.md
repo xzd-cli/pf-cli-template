@@ -7,14 +7,14 @@ order: 1
 ### 安装
 
 ```bash
-npm i @ols-scripts/<%= name %> --save
+npm i @rea-scripts/<%= name %> --save
 ```
 
 ### 使用
 
 ```tsx live
 import React from 'react';
-import Component from '@ols-scripts/<%= name %>';
+import Component from '@rea-scripts/<%= name %>';
 
 const Demo = () => {
   return (

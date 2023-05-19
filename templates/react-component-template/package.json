@@ -1,18 +1,18 @@
 {
-  "name": "@ols-scripts/<%= name %>",
+  "name": "@rea-scripts/<%= name %>",
   "version": "<%= version %>",
   "description": "<%= description %>",
   "author": "<%= author %>",
   "license": "<%= license %>",
   "scripts": {
     "start": "npm run dev",
-    "dev": "ols dev",
-    "docs:build": "ols build --docs",
-    "build": "ols build",
-    "deploy": "ols deploy",
+    "dev": "rea dev",
+    "docs:build": "rea build --docs",
+    "build": "rea build",
+    "deploy": "rea deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "test": "ols test",
-    "test:coverage": "ols test --coverage"
+    "test": "rea test",
+    "test:coverage": "rea test --coverage"
   },
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -35,9 +35,9 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@ols-scripts/cli": "^0.0.2",
-    "@ols-scripts/component-theme-one": "^0.0.1",
-    "@ols-scripts/eslint-config": "^0.0.1",
+    "@rea-scripts/cli": "^0.0.3",
+    "@rea-scripts/component-theme-one": "^0.0.3",
+    "@rea-scripts/eslint-config": "^0.0.3",
     "@types/react": "^16.9.22",
     "@types/react-dom": "^16.9.5",
     "@types/enzyme": "^3.10.8",

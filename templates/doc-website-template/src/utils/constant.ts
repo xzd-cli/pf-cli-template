@@ -14,9 +14,9 @@ export const MINI_LIST = [
   },
   {
     img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*mb-WQILTlSEAAAAAAAAAAABkARQnAQ',
-    title: 'OLS',
+    title: 'rea',
     description: '一款强大且支持自定义的脚手架',
-    link: '/docs/ols',
+    link: '/docs/rea',
   },
   {
     img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*PrLWSpmWZmIAAAAAAAAAAABkARQnAQ',

@@ -50,7 +50,7 @@ module.exports = {
         alt: '涂鸦-服务平台',
         src: 'img/logo.png',
       },
-      copyright: `Copyright © ${new Date().getFullYear()}, Inc.  ❤️ &nbsp;Built by ols-scripts.`,
+      copyright: `Copyright © ${new Date().getFullYear()}, Inc.  ❤️ &nbsp;Built by rea-scripts.`,
     },
     prism: {
       defaultLanguage: 'typescript',

@@ -38,7 +38,7 @@ export default function GreatContent() {
           >
             <h3>脚手架</h3>
             <ul>
-              <li><Link to="/docs/ols">OLS</Link></li>
+              <li><Link to="/docs/rea">rea</Link></li>
             </ul>
           </div>
         </Col>

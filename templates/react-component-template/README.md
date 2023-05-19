@@ -3,14 +3,14 @@
 ### 安装
 
 ```bash
-npm i @ols-scripts/<%= name %>
+npm i @rea-scripts/<%= name %>
 ```
 
 ### 使用
 
 ```js
 import React from 'react';
-import Component from '@ols-scripts/<%= name %>';
+import Component from '@rea-scripts/<%= name %>';
 
 const Demo = () => {
   return (

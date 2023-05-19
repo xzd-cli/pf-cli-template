@@ -3,8 +3,8 @@
   "version": "<%= version %>",
   "description": "<%= description %>",
   "scripts": {
-    "dev": "ols dev",
-    "build": "ols build",
+    "dev": "rea dev",
+    "build": "rea build",
     "commit": "git-cz",
     "lint:script": "eslint --ext .tsx,.ts,.js,.jsx --fix ./src",
     "lint:style": "stylelint --fix 'src/**/*.{less,css}' --syntax less"
@@ -35,8 +35,8 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@ols-scripts/cli": "^0.0.2",
-    "@ols-scripts/eslint-config": "^0.0.1",
+    "@rea-scripts/cli": "^0.0.3",
+    "@rea-scripts/eslint-config": "^0.0.3",
     "@types/node": "^13.7.4",
     "@types/prop-types": "^15.7.1",
     "@types/react": "^16.9.22",

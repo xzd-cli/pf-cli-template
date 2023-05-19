@@ -1,4 +1,4 @@
 {
-  "extends": ["@tuya-fe/ols-eslint-config/style.js"],
+  "extends": ["@rea-scripts/eslint-config/style.js"],
   "ignoreFiles": ["node_modules/**", "**/*.json"]
 }
